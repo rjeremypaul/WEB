@@ -282,3 +282,43 @@ section{
   font-size: 18;
   font-weight: 300;
 }
+#contacts{
+  background: linear-gradient(245.59deg, #5c5c5c 0%, #3c423c 28.53%, #232524 75.52%);
+  font-family: 'DotGothic16', sans-serif;
+  padding: 0;
+  color: #fff
+}
+/*contacts*/
+.contact-left{
+  flex-basis: 35%;
+}
+.contact-right{
+  flex-basis: 60%;
+}
+.subs-contact{
+  display: flex;
+  margin-left: 160px;
+
+}
+.p23{
+  display: flex;
+  margin-left: 160px;
+
+}
+.p24{
+  display: flex;
+  margin-left: 160px;
+  font-size: 24px;
+}
+.contact-right i{
+  margin-left: 160px;
+  display: flex;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  transition: all .50s ease;
+}
+.contact-right i:hover{
+  color: #5c5c5c;
+  transform: translateY(-5px)
+}

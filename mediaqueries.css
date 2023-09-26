@@ -1,0 +1,86 @@
+/* Media Query for Responsive Design */
+@media screen and (max-width: 768px) {
+    /* Adjust styles for screens with a maximum width of 768px */
+    body {
+      font-size: 16px; /* Adjust font size for smaller screens */
+    }
+  
+    /* Example: You can add more responsive styles here for different elements */
+    header {
+      padding: 10px; /* Adjust padding for the header on smaller screens */
+    }
+  
+    /* Example: Adjust the layout or styling of other elements as needed */
+  }
+
+  /*!--mediaq--*/
+/* Media Query for Screens Smaller than 576px (Mobile Phones) */
+@media (max-width: 576px) {
+  /* Example: Reduce padding in the header for smaller screens */
+  header {
+    padding: 10px;
+  }
+
+  /* Example: Adjust font sizes for smaller screens */
+  h1 {
+    font-size: 24px;
+  }
+
+  /* Example: Center-align the navigation links for mobile */
+  .navlist {
+    text-align: center;
+  }
+
+  /* Example: Remove right margin for list items on mobile */
+  .navlist li {
+    margin-right: 0;
+  }
+
+  /* You can add more specific styles for mobile screens as needed */
+}
+
+/* Media Query for Screens between 577px and 768px (Tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+  /* Example: Increase padding in the header for tablets */
+  header {
+    padding: 20px;
+  }
+
+  /* Example: Center-align the logo for tablets */
+  .logo {
+    text-align: center;
+  }
+
+  /* You can add more specific styles for tablets as needed */
+}
+
+/* Media Query for Screens between 769px and 992px (Small Desktops) */
+@media (min-width: 769px) and (max-width: 992px) {
+  /* Example: Adjust margins for small desktops */
+  .navlist li {
+    margin-right: 15px;
+  }
+
+  /* You can add more specific styles for small desktops as needed */
+}
+
+/* Media Query for Screens Larger than 992px and up to 1200px (Large Desktops) */
+@media (min-width: 993px) and (max-width: 1200px) {
+  /* Example: Increase margins for large desktops */
+  .navlist li {
+    margin-right: 30px;
+  }
+
+  /* You can add more specific styles for large desktops as needed */
+}
+
+/* Media Query for Screens Larger than 1200px (Web View) */
+@media (min-width: 1201px) {
+  /* Example: Widen the main content area for web view */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* You can add more specific styles for the web view as needed */
+}
