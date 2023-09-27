@@ -171,7 +171,7 @@ section{
   transition: all .50s ease;
   flex-wrap: wrap;
 }
-,.icons i:hover{
+.icons i:hover{
   color: #5c5c5c;
   transform: translateY(-5px);
   flex-wrap: wrap;
